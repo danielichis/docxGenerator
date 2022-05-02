@@ -1,0 +1,20 @@
+Característica: Validar enmascaramiento de PAN		
+Como un usuario			
+Quiero validar que el PAN se encuentre enmascarado 		
+
+		
+Esquema del escenario: Validar PAN enmascarado en Spool 			
+Dado que ingreso al menu principal
+E ingreso a la opcion "sOpcion"		
+Y realizo la busqueda del JOB "sJobID"	
+Y valido que el codigo reporte "sCodigoReporte" coincida con el codigo de modulo del JOB
+Entonces valido que el PAN se encuentre enmascarado 
+Ejemplos:			
+ | ID_Caso | sOpcion   | sJobID   | sCodigoReporte |
+ |  CP01   | ROSCOE20  | CDRAD16D | CDCR247        | 
+ |  CP02   | ROSCOE20  | CDOA01PD | CDCC403        | 	 
+ |  CP03   | ROSCOE20  | CDRAD16D | CSDCR247       |
+ 	
+
+
+	

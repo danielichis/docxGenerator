@@ -1,0 +1,11 @@
+1. Ingresar a la carpeta /Config para colocar el usuario
+2. Ingresar a la carpeta /input para configurar el flujo
+3. Abrir el archivo .bat (Automatizacion Automatizacion PagoTarjetaCreditoBPI.bat), para ejecutar la automatización
+
+------Consideraciones-----------------------------
+Se recomenda instalar la siguiente extensión "Buster: Captcha Solver for Humans", que se encuentra en la Web Store de
+Chrome, esto ayuda a resolver los Captcha que presenta la web 
+https://chrome.google.com/webstore/detail/buster-captcha-solver-for/mpbjkejclgfgadiemmefgebjfooflfhl?hl=es
+
+Si hay problemas con la ejecución,verificar que la dependencia microsoft.activities este correctamente instalado, caso contrario, ingresar al siguiente path, y pegar el archivo "microsoft.activities.1.0.1.nupkg" que se encuentra en el proyecto
+C:\Users\%username%\AppData\Local\UiPath\app-21.4.4\Packages

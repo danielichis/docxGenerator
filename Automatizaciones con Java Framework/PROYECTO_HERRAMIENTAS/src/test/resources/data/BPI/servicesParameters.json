@@ -1,0 +1,21 @@
+[
+  {
+    "atributos":{
+      "afiliarBPI":{
+        "1":"codigoEstadoFinal",
+        "2":"codigoUnico",
+        "3":"operador",
+        "4":"numeroCelular",
+        "5":"codigoEstadoFinal"
+      }
+    },
+    "url":
+    {
+      "consultaBPI":"http://interbank.com.pe/service/CIF/bancaSMS.consultarAfiliacion/v1.0/",
+      "desafiliarBPI":"http://interbank.com.pe/service/MPO/Utilitarios/bancaSMS.desafiliar/v1.0/",
+      "afiliarBPI": "http://interbank.com.pe/service/MPO/Utilitarios/bancaSMS.afiliar/v1.0/"
+    }
+
+  }
+
+]

@@ -1,0 +1,10 @@
+PROYECTO_HERRAMIENTAS -> Búsqueda de movimientos TD en STI y/o IMI
+PROYECTO_HERRAMIENTAS -> Consultar Cliente en Systematics
+PROYECTO_HERRAMIENTAS -> Consulta TD en Systematics
+PROYECTO_HERRAMIENTAS -> Creación campañas ASSI con clientes existentes
+PROYECTO_HERRAMIENTAS -> Creación campañas ASSI sin clientes existentes
+PROYECTO_HERRAMIENTAS -> Creación Cuentas IM, ST para TD por Systematics  
+PROYECTO_HERRAMIENTAS -> Creación clientes por Systematics (DNI y RUC)
+PROYECTO_HERRAMIENTAS -> Consulta RNC de las tarjetas (CVV,3CSC,4CSC...)
+PROYECTO_HERRAMIENTAS -> Afiliación de celular a la Banca por Internet
+PROYECTO_ACO          -> Alta de controversia Individual

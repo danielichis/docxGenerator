@@ -1,0 +1,33 @@
+Característica: Validar resultado de Busqueda		
+Como un usuario			
+Quiero validar el resultado de mi busqueda			
+			
+		
+Esquema del escenario: Validar busqueda 			
+Dado que ingreso al menu principal		
+Y realizo la busqueda "sValorBusqueda"	
+Entonces valido el resultado de la busqueda		
+Ejemplos:			
+ | ID_Caso | sValorBusqueda        |
+ |X-121    | Cristiano Ronaldo     |
+	
+	 
+
+Esquema del escenario:  Validar busqueda de imagenes			
+Dado que ingreso al menu principal		
+Y realizo la busqueda de "sValorBusqueda" mediante la opcion imagenes
+Entonces valido el resultado de la busqueda		
+Ejemplos:			
+ | ID_Caso | sValorBusqueda         |
+ |X-121    | Peru                   |		
+
+
+
+Esquema del escenario: Validar busqueda de imagenes			
+Dado que ingreso al menu principal		
+Y realizo la busqueda de "sValorBusqueda" mediante la opcion imagenes
+Entonces valido el resultado de la busqueda de imagenes
+Ejemplos:			
+ | ID_Caso | sValorBusqueda         |	
+ |X-121    | LIMA                   |			
+
