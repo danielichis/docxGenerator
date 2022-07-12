@@ -10,6 +10,7 @@ import org.junit.Assert;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
@@ -126,7 +127,7 @@ public class JavaAutomatizacion extends HelperServices {
             String uri = "https://dpisit.grupoib.local:5200/ibk/srv/MPO/Colocaciones/proceso.abonarTarjetaCredito/v1.0";
             String enM = "";
 
-            FileInputStream tramaconsulta = new FileInputStream(new File("src/test/java/providers/uat/abonarTarjetaCredito.xml"));
+            FileInputStream tramaconsulta = new FileInputStream(new File("src/test/resources/data/Servicios/abonarTarjetaCredito.xml"));
             String tramaOriginal = IOUtils.toString(tramaconsulta, "UTF-8");
 
             SimpleDateFormat format1= new SimpleDateFormat("yyyyMMddHHmmssZZZZ");
@@ -246,7 +247,7 @@ public class JavaAutomatizacion extends HelperServices {
 
             String uri = "https://dpiuat.grupoib.local:7200/ibk/srv/MPO/Colocaciones/tarjeta.consultarMovimientosTC/v1.0";
 
-            FileInputStream tramaconsulta = new FileInputStream(new File("src/test/java/providers/uat/consultaMovimientos.xml"));
+            FileInputStream tramaconsulta = new FileInputStream(new File("src/test/resources/data/Servicios/consultaMovimientos.xml"));
             String tramaOriginal = IOUtils.toString(tramaconsulta, "UTF-8");
 
             String TF = tramaOriginal.replace("cardNumber", tarjeta);
@@ -284,7 +285,7 @@ public class JavaAutomatizacion extends HelperServices {
         String uri = "https://10.11.44.38:8030/ibk/srv/MPO/Servicios/cliente.pagoServicio/v2.0";
         String Trama = "";
 
-        FileInputStream tramaconsulta = new FileInputStream(new File("src/test/java/providers/uat/realizaConsumo.xml"));
+        FileInputStream tramaconsulta = new FileInputStream(new File("src/test/resources/data/Servicios/realizaConsumo.xml"));
         String tramaOriginal = IOUtils.toString(tramaconsulta, "UTF-8");
 
         HashMap headermap = new HashMap<>();
@@ -347,6 +348,37 @@ public class JavaAutomatizacion extends HelperServices {
         } else {
             Assert.fail("No se ejecuta el caso, ya que el día indicado no es mismo de hoy.");
         }
+    }
+
+    public void ejecutarGIRU() throws IOException {
+
+        String uri = "https://dpisit.grupoib.local:5200/ibk/srv/MPO/Colocaciones/proceso.abonarTarjetaCredito/v1.0";
+        String Trama = "";
+
+        FileInputStream tramaconsulta = new FileInputStream(new File("src/test/resources/data/Servicios/abonarTarjetaGIRU.xml"));
+        String tramaOriginal = IOUtils.toString(tramaconsulta, "UTF-8");
+
+        HashMap headermap = new HashMap<>();
+
+        headermap.put("SOAPAction", "http://interbank.com.pe/service/MPO/Colocaciones/proceso.abonarTarjetaCredito/v1.0/");
+        headermap.put("Particion", "0003202007");
+        headermap.put("Audita", "S");
+        headermap.put("Msgid", "IBDA1A000000ff5fcbc5052a7044e50b346041a1bd8bdc0e");
+
+        //Trama = tramaOriginal.replace("monedaTrx", moneda);
+        //Trama = tramaOriginal.replace("montoTrx", monto);
+        //Trama = Trama.replace("PAN", PAN);
+
+
+        // Metodo para ejecutura el soap
+        String response = executeSOAPServicesRequest(
+                "",
+                uri,
+                "",
+                Trama,
+                headermap
+        );
+
     }
 
 }
