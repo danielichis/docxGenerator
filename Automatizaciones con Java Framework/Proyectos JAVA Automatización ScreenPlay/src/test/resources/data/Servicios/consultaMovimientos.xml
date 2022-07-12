@@ -1,0 +1,39 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v4="http://interbank.com.pe/srv/generic/messageFormat/v4.0/" xmlns:v1="http://interbank.com.pe/service/MPO/Colocaciones/tarjeta.consultarMovimientosTC/v1.0/">
+    <soapenv:Header>
+        <wsse:Security xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-4B79246C37D90EEF6D14988520003296" xmlns:date="http://exslt.org/dates-and-times" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+                <wsse:Username>uBseAppAOp</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Ibkubsaop17</wsse:Password>
+            </wsse:UsernameToken>
+        </wsse:Security>
+        <v4:HeaderRequest>
+            <request>
+                <serviceId>SAT</serviceId>
+                <consumerId>APM</consumerId>
+                <moduleId>consultarMovimientosTC</moduleId>
+                <channelCode>07</channelCode>
+                <messageId>12345678</messageId>
+                <timestamp>2018-03-15T17:57:48</timestamp>
+                <countryCode>PE</countryCode>
+                <groupMember>08</groupMember>
+                <referenceNumber>A0253</referenceNumber>
+            </request>
+            <identity>
+                <netId>BI</netId>
+                <userId>BPIB0000</userId>
+                <supervisorId>BPIB0000</supervisorId>
+                <deviceId>130.30.20.80</deviceId>
+                <serverId>server12</serverId>
+                <branchCode>898</branchCode>
+            </identity>
+        </v4:HeaderRequest>
+    </soapenv:Header>
+    <soapenv:Body>
+        <v1:consultarMovimientosTC>
+            <numeroTarjeta>cardNumber</numeroTarjeta>
+            <numeroFilas>65</numeroFilas>
+            <canal>BPI</canal>
+            <usuario>xt7666</usuario>
+        </v1:consultarMovimientosTC>
+    </soapenv:Body>
+</soapenv:Envelope>

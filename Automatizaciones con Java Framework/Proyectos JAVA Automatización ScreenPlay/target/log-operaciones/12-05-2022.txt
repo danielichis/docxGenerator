@@ -1,0 +1,5 @@
+03:15 PM: 
+Detalles afiliación
+numeroCelular->51987165914
+estadoProceso->0
+codigoUnico->0060040564

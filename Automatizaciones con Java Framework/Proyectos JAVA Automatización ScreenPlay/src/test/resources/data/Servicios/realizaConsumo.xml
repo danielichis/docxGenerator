@@ -1,0 +1,70 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v4="http://interbank.com.pe/srv/generic/messageFormat/v4.0/" xmlns:v2="http://interbank.com.pe/service/MPO/Servicios/cliente.pagoServicio/v2.0/">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-03F8B861DA06CEB7F114392277825531">
+                <wsse:Username>uBseSfiAOpe</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText">Ibkubsaope2018+</wsse:Password>
+                <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">bLKXJo5BciFfREajVarEWA==</wsse:Nonce>
+                <wsu:Created>2018-03-20T12:10:21.619Z</wsu:Created>
+            </wsse:UsernameToken>
+        </wsse:Security>
+        <v4:HeaderRequest>
+            <request>
+                <serviceId>BEN</serviceId>
+                <consumerId>BENNI</consumerId>
+                <moduleId>pagoBim</moduleId>
+                <channelCode>02</channelCode>
+                <messageId>2019042417084300610</messageId>
+                <timestamp>2019-04-24T17:08:43.000610</timestamp>
+                <countryCode>PE</countryCode>
+                <groupMember>08</groupMember>
+            </request>
+            <identity>
+                <netId>BI</netId>
+                <userId>BENI0000</userId>
+                <supervisorId>BENI0000</supervisorId>
+                <deviceId>127.0.0.1</deviceId>
+                <serverId>SERVER01</serverId>
+                <branchCode>898</branchCode>
+            </identity>
+        </v4:HeaderRequest>
+    </soapenv:Header>
+    <soapenv:Body>
+        <v2:pagoServicio>
+            <datosBSE>
+                <monedaTransaccion>monedaTrx</monedaTransaccion>
+                <importeTransacccion>montoTrx</importeTransacccion>
+                <listaMediosPago>
+                    <mediosPago>
+                        <codigoMedioPago>06</codigoMedioPago>
+                        <tipoOperacion>C</tipoOperacion>
+                        <codigoMonedaPago>monedaTrx</codigoMonedaPago>
+                        <importePago>montoTrx</importePago>
+                        <codigoMonedaEquivalente>010</codigoMonedaEquivalente>
+                        <medioPagoTarjetaCredito>
+                            <numeroTarjetaCredito>PAN</numeroTarjetaCredito>
+                            <flagClienteTitular>S</flagClienteTitular>
+                            <glosaDinamicaTC>pago de servicio</glosaDinamicaTC>
+                        </medioPagoTarjetaCredito>
+                    </mediosPago>
+                </listaMediosPago>
+            </datosBSE>
+            <datosPagoServicio>
+                <codigoRubro>7</codigoRubro>
+                <codigoEmpresa>836</codigoEmpresa>
+                <codigoServicio>1</codigoServicio>
+                <codigoDeudor>719042400012</codigoDeudor>
+                <numeroCuotas>1</numeroCuotas>
+                <codigoMoneda>010</codigoMoneda>
+                <cuota1>
+                    <numeroCuota1>1</numeroCuota1>
+                    <importeCuota1>60.15</importeCuota1>
+                    <importeTotalCuota1>60.15</importeTotalCuota1>
+                </cuota1>
+                <indicadorDocumentoIdentidad>2</indicadorDocumentoIdentidad>
+                <importeTotalPago>60.15</importeTotalPago>
+                <importeTotalPagar>60.15</importeTotalPagar>
+            </datosPagoServicio>
+        </v2:pagoServicio>
+    </soapenv:Body>
+</soapenv:Envelope>

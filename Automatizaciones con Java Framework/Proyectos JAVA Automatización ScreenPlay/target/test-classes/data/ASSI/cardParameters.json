@@ -1,0 +1,111 @@
+[
+  {
+    "CARD": {
+      "AMEX": {
+        "PLATINUM": {
+          "MARCATARJETA": "02",
+          "TIPOTARJETA": "08",
+          "TASA1": "5.02",
+          "TASA2": "5.12",
+          "TIPOCLIENTE": "512",
+          "CEM": "2000",
+          "FLUJOINGRESO": "05"
+        },
+        "BLACK":{
+          "MARCATARJETA": "02",
+          "TIPOTARJETA": "09",
+          "TASA1": "5.02",
+          "TASA2": "5.11",
+          "TIPOCLIENTE": "511",
+          "CEM": "6000",
+          "FLUJOINGRESO": "08"
+        },
+        "BLUE JOVEN":{
+          "MARCATARJETA": "02",
+          "TIPOTARJETA": "07",
+          "TASA1": "5.49",
+          "TASA2": "5.14",
+          "TIPOCLIENTE": "514",
+          "CEM": "1200",
+          "FLUJOINGRESO": "97"
+        }
+      },
+      "VISA": {
+        "INFINITE": {
+          "MARCATARJETA": "01",
+          "TIPOTARJETA": "29",
+          "TASA1": "5.02",
+          "TASA2": "5.11",
+          "TIPOCLIENTE": "511",
+          "CEM": "15000",
+          "FLUJOINGRESO": "05"
+        },
+        "ORO": {
+          "MARCATARJETA": "01",
+          "TIPOTARJETA": "02",
+          "TASA1": "5.49",
+          "TASA2": "5.63",
+          "TIPOCLIENTE": "511",
+          "CEM": "2500",
+          "FLUJOINGRESO": "08"
+        },
+        "SIGNATURE": {
+          "MARCATARJETA": "01",
+          "TIPOTARJETA": "14",
+          "TASA1": "5.02",
+          "TASA2": "5.11",
+          "TIPOCLIENTE": "511",
+          "CEM": "3500",
+          "FLUJOINGRESO": "50"
+        },
+        "CLASICA INTERNACIONAL": {
+          "MARCATARJETA": "01",
+          "TIPOTARJETA": "01",
+          "TASA1": "5.49",
+          "TASA2": "5.14",
+          "TIPOCLIENTE": "514",
+          "CEM": "1500",
+          "FLUJOINGRESO": "05"
+        },
+        "INTERBANK PREMIA":{
+          "MARCATARJETA": "01",
+          "TIPOTARJETA": "17",
+          "TASA1": "5.49",
+          "TASA2": "4.37",
+          "TIPOCLIENTE": "437",
+          "CEM": "5000",
+          "FLUJOINGRESO": "05"
+        }
+      },
+      "MASTERCARD": {
+        "ORO": {
+          "MARCATARJETA": "04",
+          "TIPOTARJETA": "02",
+          "TASA1": "5.49",
+          "TASA2": "5.62",
+          "TIPOCLIENTE": "562",
+          "CEM": "4500",
+          "FLUJOINGRESO": "97"
+        },
+        "PLATINUM": {
+          "MARCATARJETA": "04",
+          "TIPOTARJETA": "04",
+          "TASA1": "5.02",
+          "TASA2": "5.12",
+          "TIPOCLIENTE": "512",
+          "CEM": "11000",
+          "FLUJOINGRESO": "05"
+        },
+        "STANDAR": {
+          "MARCATARJETA": "04",
+          "TIPOTARJETA": "01",
+          "TASA1": "5.49",
+          "TASA2": "5.14",
+          "TIPOCLIENTE": "514",
+          "CEM": "1500",
+          "FLUJOINGRESO": "05"
+        }
+      }
+    }
+  }
+]

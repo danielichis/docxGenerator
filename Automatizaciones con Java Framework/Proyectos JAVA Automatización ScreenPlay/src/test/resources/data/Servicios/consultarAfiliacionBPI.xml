@@ -1,0 +1,39 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v4="http://interbank.com.pe/srv/generic/messageFormat/v4.0/" xmlns:v1="http://interbank.com.pe/service/CIF/bancaSMS.consultarAfiliacion/v1.0/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-03F8B861DA06CEB7F114392277825531">
+            <wsse:Username>uBseDWAUAT</wsse:Username>
+            <wsse:Password>Ibkauat17+</wsse:Password>
+         </wsse:UsernameToken>
+      </wsse:Security>
+      <v4:HeaderRequest>
+         <request>
+            <serviceId>BSE</serviceId>
+            <consumerId>CTO</consumerId>
+            <moduleId>modcontacto</moduleId>
+            <channelCode>04</channelCode>
+            <messageId>20160623152105100</messageId>
+            <timestamp>2016-05-24T11:57:48</timestamp>
+            <countryCode>PE</countryCode>
+            <groupMember>G0001</groupMember>
+            <referenceNumber>REF06002</referenceNumber>
+         </request>
+         <identity>
+            <netId>PU</netId>
+            <userId>S23052</userId>
+            <supervisorId>S2058</supervisorId>
+            <deviceId>130.30.20.80</deviceId>
+            <serverId>server12</serverId>
+            <branchCode>7</branchCode>
+         </identity>
+      </v4:HeaderRequest>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:ConsultarAfiliacion>
+         <listSolConsultaAfiliacion>
+            <solConsultaAfiliacion>
+            </solConsultaAfiliacion>
+         </listSolConsultaAfiliacion>
+      </v1:ConsultarAfiliacion>
+   </soapenv:Body>
+</soapenv:Envelope>

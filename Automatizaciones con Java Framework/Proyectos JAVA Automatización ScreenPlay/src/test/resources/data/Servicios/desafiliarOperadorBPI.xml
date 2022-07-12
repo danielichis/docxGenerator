@@ -1,0 +1,42 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v4="http://interbank.com.pe/srv/generic/messageFormat/v4.0/" xmlns:v1="http://interbank.com.pe/service/MPO/Utilitarios/bancaSMS.desafiliar/v1.0/">
+   <soapenv:Header>
+      <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+         <wsse:UsernameToken wsu:Id="UsernameToken-4B79246C37D90EEF6D14988520003296">
+            <wsse:Username></wsse:Username>
+            <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText"></wsse:Password>
+            <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">bLKXJo5BciFfREajVarEWA==</wsse:Nonce>
+            <wsu:Created>2017-10-04T15:33:40.329Z</wsu:Created>
+         </wsse:UsernameToken>
+      </wsse:Security>
+
+      <v4:HeaderRequest>
+         <request>
+            <serviceId>BSE</serviceId>
+            <consumerId>CTO</consumerId>
+            <moduleId>modcontacto</moduleId>
+            <channelCode>04</channelCode>
+            <messageId>20160623152105100</messageId>
+            <timestamp>2016-05-24T11:57:48</timestamp>
+            <countryCode>PE</countryCode>
+            <groupMember/>
+            <referenceNumber>R02009</referenceNumber>
+         </request>
+         <identity>
+            <netId>PU</netId>
+            <userId>BIM</userId>
+            <supervisorId>S33211</supervisorId>
+            <deviceId>130.30.30.52</deviceId>
+            <serverId>server12</serverId>
+            <branchCode>898</branchCode>
+         </identity>
+      </v4:HeaderRequest>
+   </soapenv:Header>
+   <soapenv:Body>
+      <v1:Desafiliar>
+         <listSolDesafiliacion>
+            <solDesafiliacion>
+            </solDesafiliacion>
+         </listSolDesafiliacion>
+      </v1:Desafiliar>
+   </soapenv:Body>
+</soapenv:Envelope>

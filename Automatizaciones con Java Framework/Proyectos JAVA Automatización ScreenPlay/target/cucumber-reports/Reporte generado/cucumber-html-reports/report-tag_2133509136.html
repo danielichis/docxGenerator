@@ -1,0 +1,535 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script src="js/jquery.min.js"></script>
+<script src="js/jquery.tablesorter.min.js"></script>
+<script src="js/Chart.min.js"></script>
+<script src="js/moment.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script>
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+<title>Cucumber Reports (no 1) - Tag: @prueba</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+        <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation" ><a href="overview-steps.html">Steps</a></li>
+        <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+        <th>Number</th>
+      <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>MEDIOS DE PAGO - EQUIPO IQPROJECT</td>
+        <td>1</td>
+      <td>22 Jun 2022, 16:58</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+  </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Tag Report</h2>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table class="stats-table">
+
+
+<thead>
+  <tr class="header dont-sort">
+      <th></th>
+    <th colspan="6">Steps</th>
+    <th colspan="3">Scenarios</th>
+    <th colspan="2">Features</th>
+  </tr>
+  <tr>
+    <th>Tag</th>
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="skipped">Skipped</th>
+    <th class="pending">Pending</th>
+    <th class="undefined">Undefined</th>
+    <th class="total">Total</th>
+
+    <th class="passed">Passed</th>
+    <th class="failed">Failed</th>
+    <th class="total">Total</th>
+
+    <th>Duration</th>
+    <th>Status</th>
+  </tr>
+</thead>
+
+
+        <tbody>
+        <tr>
+          <td class="tagname">@prueba</td>
+          <td      class="passed"    >4</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td >0</td>
+          <td class="total">4</td>
+
+          <td  class="passed"    >1</td>
+          <td >0</td>
+          <td class="total">1</td>
+
+          <td class="duration" data-value="422724569300">7:2.724</td>
+          <td class="passed">Passed</td>
+        </tr>
+        </tbody>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <div class="elements">
+
+
+<div class="element">
+    <div class="indention">
+      <b>Feature:</b>
+      <a href="report-feature_3610088354.html">Realizar operaciones de pago Min-Full</a>
+    </div>
+
+
+<div class="tags indention">
+    <b>Tags:</b>
+       <a href="report-tag_2133509136.html">@prueba</a>
+</div>
+
+
+  <span class="lead-duration duration">7:2.724</span>
+
+
+  <span data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#element-1">
+
+<div class="brief passed">
+  <span class="keyword indention">Esquema del escenario</span>
+  <span class="name">El analista desea realizar mantenimiento decontr</span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </span>
+  <div class="description indention"></div>
+
+  <div id="element-1" class="collapse collapsable-details ">
+
+
+  <div class="inner-level hooks-element-before">
+    <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#before-2">
+
+<div class="brief passed">
+  <span class="keyword indention">Hooks</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+    </div>
+
+    <div id="before-2" class="inner-level collapse collapsable-details ">
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">PagoMinFullDefinition.before(Scenario)</span>
+
+  <span class="lead-duration duration">1.262</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+        <div class="hook">
+          <div class="brief passed">
+            <span class="keyword indention">Before</span>
+              <span class="location name">mantenimientoDataDefinition.before(Scenario)</span>
+
+  <span class="lead-duration duration">0.008</span>
+
+          </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+  </div>
+
+
+
+<div class="steps inner-level">
+  <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#steps-3">
+
+<div class="brief passed">
+  <span class="keyword indention">Steps</span>
+  <span class="name"></span>
+
+
+     <i class="chevron fa fa-fw"></i>
+</div>
+
+  </div>
+
+  <div id="steps-3" class="inner-level collapse collapsable-details ">
+      <div class="step">
+
+
+<div class="brief step-name-Dado passed">
+  <span class="keyword indention">Dado</span>
+  <span class="name">consulto la deuda del &quot;<span class="argument">4772890057027023</span>&quot; con &quot;<span class="argument">60098382</span>&quot;</span>
+
+  <span class="lead-duration duration">7.487</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="outputs inner-level">
+      <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-4">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-4" class="collapse collapsable-details " >
+          
+          <pre><p>Status CODE del servicio: 200</p><p>RESPONSE:</p><p>{
+    &quot;isflagNSAT&quot;: &quot;true&quot;,
+    &quot;customerTypeCode&quot;: &quot;TI&quot;,
+    &quot;branch&quot;: &quot;0987&quot;,
+    &quot;bin&quot;: &quot;477289&quot;,
+    &quot;brandCode&quot;: &quot;1&quot;,
+    &quot;typeIndicator&quot;: &quot;29&quot;,
+    &quot;isBlock&quot;: &quot;false&quot;,
+    &quot;situation&quot;: {
+        &quot;code&quot;: &quot;5&quot;,
+        &quot;description&quot;: &quot;PODERCLIEN&quot;
+    },
+    &quot;account&quot;: {
+        &quot;contractNumber&quot;: &quot;000002255083&quot;,
+        &quot;status&quot;: &quot;OPERATIVO&quot;,
+        &quot;currencyCode&quot;: &quot;604&quot;,
+        &quot;isDoubleCurrency&quot;: &quot;true&quot;
+    },
+    &quot;consumptionLine&quot;: {
+        &quot;processed&quot;: {
+            &quot;sign&quot;: &quot;+&quot;,
+            &quot;amount&quot;: &quot;649.97&quot;
+        },
+        &quot;authorized&quot;: {
+            &quot;sign&quot;: &quot;+&quot;,
+            &quot;amount&quot;: &quot;0.00&quot;
+        }
+    },
+    &quot;creditLine&quot;: {
+        &quot;sign&quot;: &quot;+&quot;,
+        &quot;amount&quot;: &quot;35000.00&quot;,
+        &quot;used&quot;: {
+            &quot;sign&quot;: &quot;+&quot;,
+            &quot;amount&quot;: &quot;649.97&quot;
+        },
+        &quot;available&quot;: {
+            &quot;sign&quot;: &quot;+&quot;,
+            &quot;amount&quot;: &quot;34350.03&quot;
+        }
+    },
+    &quot;parallelLineList&quot;: [
+        
+    ],
+    &quot;shipping&quot;: {
+        &quot;address&quot;: &quot;AV LIMA NRO 1492&quot;,
+        &quot;email&quot;: &quot;&quot;,
+        &quot;type&quot;: &quot;FISICO&quot;
+    },
+    &quot;installment&quot;: {
+        &quot;dollarsAmount&quot;: &quot;0.00&quot;,
+        &quot;solesAmount&quot;: &quot;0.00&quot;,
+        &quot;flag&quot;: &quot;NO&quot;
+    },
+    &quot;cashdraw&quot;: {
+        &quot;anualRate&quot;: &quot;59.73&quot;,
+        &quot;used&quot;: &quot;0.00&quot;,
+        &quot;available&quot;: &quot;2000.00&quot;
+    },
+    &quot;consumption&quot;: {
+        &quot;monthlyRate&quot;: &quot;2.83&quot;,
+        &quot;anualRate&quot;: &quot;39.78&quot;
+    },
+    &quot;overdraft&quot;: {
+        &quot;interestRate&quot;: &quot;2.83&quot;,
+        &quot;percentage&quot;: &quot;10.00&quot;,
+        &quot;amount&quot;: &quot;3500.00&quot;,
+        &quot;flag&quot;: &quot;SI&quot;
+    },
+    &quot;blockReason&quot;: &quot;0&quot;,
+    &quot;debt&quot;: {
+        &quot;solesAmount&quot;: &quot;676.79&quot;,
+        &quot;dollarsAmount&quot;: &quot;0.00&quot;,
+        &quot;solesAmountSign&quot;: &quot;+&quot;,
+        &quot;dollarsAmountSign&quot;: &quot;+&quot;
+    },
+    &quot;delayPenalty&quot;: {
+        &quot;isDelay&quot;: &quot;false&quot;,
+        &quot;days&quot;: &quot;000000&quot;,
+        &quot;startDay&quot;: &quot;00000000&quot;
+    },
+    &quot;payment&quot;: {
+        &quot;minimumAmountSoles&quot;: &quot;47.97&quot;,
+        &quot;totalAmountSoles&quot;: &quot;666.79&quot;,
+        &quot;minimumAmountDollars&quot;: &quot;0.00&quot;,
+        &quot;totalAmountDollars&quot;: &quot;0.00&quot;,
+        &quot;paymentDate&quot;: &quot;20220622&quot;,
+        &quot;billingClosingDate&quot;: &quot;20220620&quot;
+    },
+    &quot;parallelLine&quot;: &quot;NO&quot;
+}</p></pre>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Cuando passed">
+  <span class="keyword indention">Cuando</span>
+  <span class="name">obtengo los montos</span>
+
+  <span class="lead-duration duration">0.008</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+  <div class="outputs inner-level">
+      <div class="output indention">
+        <div data-toggle="collapse" class=" collapsed  collapsable-control" data-target="#output-5">
+          Output 1
+          <i class="chevron fa fa-fw"></i>
+        </div>
+        <div id="output-5" class="collapse collapsable-details " >
+          
+          <pre><p>Se cargaron los montos correctamente.</p><p>Monto minimo en soles: 47.97</p><p>Monto full en soles: 666.79</p><p>Monto minimo en dolares: 0.00</p><p>Monto full en dolares: 0.00</p></pre>
+        </div>
+      </div>
+  </div>
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Y passed">
+  <span class="keyword indention">Y</span>
+  <span class="name">primer paso la fecha</span>
+
+  <span class="lead-duration duration">0.008</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+      <div class="step">
+
+
+<div class="brief step-name-Y passed">
+  <span class="keyword indention">Y</span>
+  <span class="name">ver que me tome este &lt;&quot;<span class="argument">variable</span>&quot;&gt; como variable</span>
+
+  <span class="lead-duration duration">6:55.220</span>
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </div>
+  </div>
+</div>
+
+
+
+
+
+  </div>
+</div>
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+
+<div class="container-fluid">
+  <div class="row">
+    <div class="col-md-1 col-md-offset-10">
+      <i class="fa fa-chevron-circle-down fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('show')"></i>
+      <i class="fa fa-chevron-circle-up fa-2x collapsable-control"
+        onClick="javascript:$('#report .collapsable-details').collapse('hide')"></i>
+    </div>
+  </div>
+</div>
+
+<br/>
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>

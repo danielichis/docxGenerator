@@ -1,0 +1,83 @@
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:v4="http://interbank.com.pe/srv/generic/messageFormat/v4.0/" xmlns:v1="http://interbank.com.pe/service/MPO/Colocaciones/proceso.abonarTarjetaCredito/v1.0/">
+    <soapenv:Header>
+        <wsse:Security soapenv:mustUnderstand="1" xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+            <wsse:UsernameToken wsu:Id="UsernameToken-4B79246C37D90EEF6D14988520003296">
+                <wsse:Username>uBseGenSit</wsse:Username>
+                <wsse:Password Type="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-username-token-profile-1.0#PasswordText"></wsse:Password>
+                <wsse:Nonce EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary">bLKXJo5BciFfREajVarEWA==</wsse:Nonce>
+                <wsu:Created>2017-06-30T19:46:40.329Z</wsu:Created>
+            </wsse:UsernameToken>
+        </wsse:Security>
+        <v4:HeaderRequest>
+            <request>
+                <serviceId>SRM</serviceId>
+                <consumerId>SRM</consumerId>
+                <moduleId>PagosDigitales</moduleId>
+                <channelCode>02</channelCode>
+                <messageId>fechaMessage</messageId>
+                <timestamp>fechaTime</timestamp>
+                <countryCode>PE</countryCode>
+                <groupMember>08</groupMember>
+                <!--Optional:-->
+                <referenceNumber>REFNM0001</referenceNumber>
+                <!--Optional:-->
+                <cardIdType>0</cardIdType>
+            </request>
+            <identity>
+                <netId>BI</netId>
+                <userId>APPA0001</userId>
+                <!--Optional:-->
+                <supervisorId>APPA0001</supervisorId>
+                <deviceId/>
+                <serverId/>
+                <branchCode>898</branchCode>
+            </identity>
+        </v4:HeaderRequest>
+    </soapenv:Header>
+    <soapenv:Body>
+        <v1:abonarTarjetaCredito>
+            <tipoDocumento>01</tipoDocumento>
+            <numeroDocumento>50040511</numeroDocumento>
+            <codigoUnico>0060144661</codigoUnico>
+            <numeroTarjeta>PAN</numeroTarjeta>
+            <numeroContrato>numCuenta</numeroContrato>
+            <tipoCuenta>2</tipoCuenta>
+            <sProducto>12</sProducto>
+            <nombreCliente>MENDOZA LAGUNA RICARDO CESAR</nombreCliente>
+            <fechaNacimiento>1980-01-01</fechaNacimiento>
+            <ubigeo>150114</ubigeo>
+            <canal>115</canal>
+            <!--Optional:-->
+            <userId>b10951</userId>
+            <!--Optional:-->
+            <supervisorId>b9068</supervisorId>
+            <flagITF>0</flagITF>
+            <!--Optional:-->
+            <numeroReclamo>00001</numeroReclamo>
+            <glosa>28500</glosa>
+            <monedaTransaccion>monTr</monedaTransaccion>
+            <importeTransacccion>impTr</importeTransacccion>
+            <tipoCambioCompra>0</tipoCambioCompra>
+            <tipoCambioVenta>0</tipoCambioVenta>
+            <listaMediosPago>
+                <mediosPago>
+                    <codigoMedioPago>05</codigoMedioPago>
+                    <tipoOperacion>C</tipoOperacion>
+                    <codigoMonedaPago>codMoP</codigoMonedaPago>
+                    <importePago>impPa</importePago>
+                    <codigoMonedaEquivalente>001</codigoMonedaEquivalente>
+                    <cambioArbitraje>0</cambioArbitraje>
+                    <flagTasaNegociacion/>
+                    <flagAfectoItf/>
+                    <medioPagoCuentaContable>
+                        <codigoOficinaEmisora>898</codigoOficinaEmisora>
+                        <codigoOficinaReceptora>898</codigoOficinaReceptora>
+                        <numeroCuentaContable>45030129000138</numeroCuentaContable>
+                        <numeroNota>1</numeroNota>
+                        <flagNoAfectoItf/>
+                    </medioPagoCuentaContable>
+                </mediosPago>
+            </listaMediosPago>
+        </v1:abonarTarjetaCredito>
+    </soapenv:Body>
+</soapenv:Envelope>
