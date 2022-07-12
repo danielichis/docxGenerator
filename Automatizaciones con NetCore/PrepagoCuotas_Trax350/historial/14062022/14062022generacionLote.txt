@@ -1,0 +1,94 @@
+062022-09:58:23 Scenario: Transaccion 350 Prepago de Cuotas
+062022-15:44:01 Scenario: Transaccion 350 Prepago de Cuotas
+062022-15:44:21 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+062022-16:28:59 Scenario: Transaccion 350 Prepago de Cuotas
+062022-16:29:20 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+062022-16:48:56 Scenario: Transaccion 350 Prepago de Cuotas
+062022-16:49:18 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+062022-16:49:58 Scenario: Transaccion 350 Prepago de Cuotas
+062022-16:50:24 Ingresamos a la transaccion 350
+062022-16:50:59 Scenario: Transaccion 350 Prepago de Cuotas
+062022-16:56:09 Scenario: Transaccion 350 Prepago de Cuotas
+062022-16:56:29 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+062022-17:30:17 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:30:30 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03
+062022-17:31:49 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:32:29 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:32:43 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03
+062022-17:35:26 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:35:41 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03
+062022-17:45:37 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:45:49 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03
+062022-17:47:33 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:48:06 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:48:29 Ingresamos a la transaccion 350
+062022-17:48:59 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:49:23 Ingresamos a la transaccion 350
+062022-17:49:52 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:50:15 Ingresamos a la transaccion 350
+062022-17:55:57 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:56:08 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+062022-17:57:39 Scenario: Transaccion 350 Prepago de Cuotas
+062022-17:58:03 Ingresamos a la transaccion 350
+062022-18:00:39 Scenario: Transaccion 350 Prepago de Cuotas
+062022-18:01:06 Ingresamos a la transaccion 350
+062022-18:02:03 Scenario: Transaccion 350 Prepago de Cuotas
+062022-18:02:31 Ingresamos a la transaccion 350
+062022-18:07:12 Scenario: Transaccion 350 Prepago de Cuotas
+062022-18:07:39 Ingresamos a la transaccion 350
+062022-20:27:52 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:28:07 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+062022-20:29:27 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:29:51 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+062022-20:30:17 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:30:37 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:31:00 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:31:26 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:32:04 Timed out after 30 seconds en el step inicia sesion digitando su contrasena cms$03
+062022-20:32:37 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:33:21 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:33:49 Ingresamos a la transaccion 350
+062022-20:36:50 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:37:01 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+062022-20:37:28 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:37:42 An invalid or illegal selector was specified en el step inicia sesion digitando su contrasena cms$03
+062022-20:38:20 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:38:46 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:39:15 Ingresamos a la transaccion 350
+062022-20:41:07 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:41:34 Ingresamos a la transaccion 350
+062022-20:58:51 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:59:29 Timed out after 30 seconds en el step inicia sesion digitando su contrasena cms$03
+062022-21:00:01 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:00:28 Ingresamos a la transaccion 350
+062022-21:08:37 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:09:21 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:10:01 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:10:12 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+062022-21:11:12 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:11:38 Ingresamos a la transaccion 350
+062022-22:57:08 Scenario: Transaccion 350 Prepago de Cuotas
+062022-22:57:34 Ingresamos a la transaccion 350
+062022-23:19:44 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:19:55 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+062022-23:21:14 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:21:25 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+062022-23:22:06 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:22:15 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+062022-23:23:36 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:24:03 Ingresamos a la transaccion 350
+062022-23:27:47 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:28:12 Ingresamos a la transaccion 350
+062022-23:33:50 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:34:16 Ingresamos a la transaccion 350
+062022-23:35:28 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:35:52 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+062022-23:37:20 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:37:46 Ingresamos a la transaccion 350
+062022-23:37:56 An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:59742/session/0c3fccd6-ba0b-44bf-96aa-8de97ac1eadc/element. The exception message was: An error occurred while sending the request. en el step se selecciona el tipo_de_producto COMPRA EN CUOTAS
+062022-23:50:18 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:50:44 Ingresamos a la transaccion 350
+062022-23:53:27 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:53:53 Ingresamos a la transaccion 350
+062022-23:58:52 Scenario: Transaccion 350 Prepago de Cuotas
+062022-23:59:17 Ingresamos a la transaccion 350

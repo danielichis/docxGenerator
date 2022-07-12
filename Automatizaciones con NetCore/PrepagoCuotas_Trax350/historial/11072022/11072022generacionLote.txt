@@ -1,0 +1,41 @@
+072022-15:49:30 Scenario: Transaccion 350 Prepago de Cuotas
+072022-15:49:50 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$04
+072022-15:50:28 Scenario: Transaccion 350 Prepago de Cuotas
+072022-15:50:57 Ingresamos a la transaccion 350
+072022-16:03:23 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:03:52 Ingresamos a la transaccion 350
+072022-16:04:37 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:04:38 Failed to navigate to http://s50va06/Transactor/Content/welcome.htm. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. The error returned is: Received error: 0x800700aa ['Ya se está usando el recurso solicitado.'] en el step que el usuario ingresa al aplcativo Transactor
+072022-16:06:25 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:06:54 Ingresamos a la transaccion 350
+072022-16:07:39 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:08:03 Ingresamos a la transaccion 350
+072022-16:08:24 Unable to find element with css selector == #idCOTIPPAG en el step hacer una simulacion de tipo_pago PRE-PAGO y numero de cuotas 1
+072022-16:16:12 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:16:56 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:17:27 Ingresamos a la transaccion 350
+072022-16:18:12 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:18:36 Ingresamos a la transaccion 350
+072022-16:18:57 Unable to find element with css selector == #idCOTIPPAG en el step hacer una simulacion de tipo_pago PRE-PAGO y numero de cuotas 1
+072022-16:27:20 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:27:46 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+072022-16:27:46 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:28:12 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:28:52 Timed out after 30 seconds en el step inicia sesion digitando su contrasena cms$04
+072022-16:28:52 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:30:12 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:30:27 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$04
+072022-16:30:27 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:30:52 Ingresamos a la transaccion 350
+072022-16:31:31 startIndex cannot be larger than length of string. (Parameter 'startIndex') en el step se genera el pago correctamente
+072022-16:32:10 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:32:37 Unable to find element with css selector == #txnID en el step seleciona la opcion transaccion 350
+072022-16:32:37 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:33:24 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:33:55 Ingresamos a la transaccion 350
+072022-16:34:41 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:34:42 Failed to navigate to http://s50va06/Transactor/Content/welcome.htm. This usually means that a call to the COM method IWebBrowser2::Navigate2() failed. The error returned is: Received error: 0x800700aa ['Ya se está usando el recurso solicitado.'] en el step que el usuario ingresa al aplcativo Transactor
+072022-16:35:21 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:35:51 Ingresamos a la transaccion 350
+072022-16:36:37 Scenario: Transaccion 350 Prepago de Cuotas
+072022-16:37:02 Ingresamos a la transaccion 350

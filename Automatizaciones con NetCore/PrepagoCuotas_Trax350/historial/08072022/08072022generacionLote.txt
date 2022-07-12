@@ -1,0 +1,13 @@
+08072022-16:09:33 Scenario: Transaccion 350 Prepago de Cuotas
+08072022-16:09:56 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$04
+08072022-16:10:50 Scenario: Transaccion 350 Prepago de Cuotas
+08072022-16:11:22 Ingresamos a la transaccion 350
+08072022-16:18:46 Scenario: Transaccion 350 Prepago de Cuotas
+08072022-16:19:00 An invalid or illegal selector was specified en el step inicia sesion digitando su contrasena cms$04
+08072022-16:19:00 Scenario: Transaccion 350 Prepago de Cuotas
+08072022-16:19:23 Ingresamos a la transaccion 350
+08072022-16:20:04 Scenario: Transaccion 350 Prepago de Cuotas
+08072022-16:20:05 Modal dialog present with text:  en el step que el usuario ingresa al aplcativo Transactor
+08072022-16:20:05 Scenario: Transaccion 350 Prepago de Cuotas
+08072022-16:20:06 Modal dialog present with text: TLDOD00  TLD5002 EFECTIVO EXCEDE LIMITE AUTORIZADO  ENTREGAR A LA BOVEDA 
+ en el step que el usuario ingresa al aplcativo Transactor

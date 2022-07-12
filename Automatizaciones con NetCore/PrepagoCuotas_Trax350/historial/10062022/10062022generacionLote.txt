@@ -1,0 +1,19 @@
+062022-20:09:19 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:13:27 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:16:11 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:17:00 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:34:56 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:42:43 Scenario: Transaccion 350 Prepago de Cuotas
+062022-20:42:54 An unknown exception was encountered sending an HTTP request to the remote WebDriver server for URL http://localhost:61973/session/66c71f95-e964-4fca-a44f-67641f9c402d/elements. The exception message was: An error occurred while sending the request. en el step inicia sesion digitando su contrasena cms$03
+062022-20:43:30 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:12:57 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:13:30 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:13:43 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03
+062022-21:15:26 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:15:51 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:16:04 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03
+062022-21:27:42 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:27:55 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03
+062022-21:28:25 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:29:16 Scenario: Transaccion 350 Prepago de Cuotas
+062022-21:30:42 Error from JavaScript: El objeto no acepta esta propiedad o método en el step inicia sesion digitando su contrasena cms$03

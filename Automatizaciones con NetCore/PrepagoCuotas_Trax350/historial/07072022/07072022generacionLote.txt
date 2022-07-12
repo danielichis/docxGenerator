@@ -1,0 +1,8 @@
+07072022-21:28:36 Scenario: Transaccion 350 Prepago de Cuotas
+07072022-21:28:53 Unable to find element with css selector == #Password en el step inicia sesion digitando su contrasena cms$03
+07072022-21:29:38 Scenario: Transaccion 350 Prepago de Cuotas
+07072022-21:29:54 Modal dialog present with text: No se encontró el archivo de menú asociado al tipo de agencia. Será utilizado uno temporal... en el step inicia sesion digitando su contrasena cms$04
+07072022-21:31:36 Scenario: Transaccion 350 Prepago de Cuotas
+07072022-21:31:54 Modal dialog present with text: No se encontró el archivo de menú asociado al tipo de agencia. Será utilizado uno temporal... en el step inicia sesion digitando su contrasena cms$04
+07072022-21:33:04 Scenario: Transaccion 350 Prepago de Cuotas
+07072022-21:33:37 Ingresamos a la transaccion 350
