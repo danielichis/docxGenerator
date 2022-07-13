@@ -1,0 +1,9 @@
+numpy==1.22.2
+pyperclip==1.8.2
+future==0.18.2
+tkcalendar==1.6.1
+behave==1.2.6
+pywin32==303
+pywinauto==0.6.8
+Pillow==9.1.0
+python-docx==0.8.11
