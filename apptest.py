@@ -20,6 +20,7 @@ from tkinter.messagebox import showinfo
 customtkinter.set_appearance_mode("Dark")  # Modes: "System" (standard), "Dark", "Light"
 customtkinter.set_default_color_theme("green")
 
+#first change in other pc
 class App(customtkinter.CTk):
     WIDTH = 780
     HEIGHT = 520
