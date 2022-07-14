@@ -1,0 +1,30 @@
+La automatizacion toma como input :
+
+-La carpeta 'Archivos Input' donde estan guardadas todas las imagenes.
+-La carpeta 'Archivos Plantilla' donde estan los archivos :
+	-EPC_Template.docx : El cuadro que se usa como plantilla para todos los cp
+	-EPC_IndexTemplate.docx: La primera pagina con la caratura e indice.
+	-HeadersMatrix.txt: El nombre de las cabeceras que buscaran_
+	 y extraeran del excel (matriz de casos de prueba) 
+
+La automatizacion tiene los siguientes ouput :
+
+-Los .docx de manera individual por cada caso de prueba que se encuentre en la matriz de casos de prueba.
+-'CP Junto.docx' donde estan los casos de prueba unidos en un solo documento.
+-'CP Junto con imagen.docx' donde al documento anterior se le agregan las imagenes de la carpeta 'Archivos Input'
+
+
+Sobre La carpeta 'Archivos Input' :
+
+EL formato de de los nombres de las imagenes es 'CPXXX-XX-L1#L2#L3' 
+	CP: CASO DE PRUEBA
+	Donde X representa a un digito del 0 al 9
+	Por lo que -XX- representa al numero de evidencia para el caso de prueba CPXXX
+
+	L1 : primera oracion
+	#: salto de linea
+	L2: segunda oracion
+	...
+	...
+	...
+
