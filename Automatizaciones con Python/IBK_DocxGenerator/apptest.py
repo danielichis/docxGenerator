@@ -1,5 +1,6 @@
 from fileinput import filename
 from sre_parse import State
+from statistics import mode
 import string
 from numpy import matrix
 import pandas as pd
@@ -43,6 +44,7 @@ class App(customtkinter.CTk):
         self.protocol("WM_DELETE_WINDOW", self.on_closing)  # call .on_closing() when app gets closed
         self.grid_columnconfigure(5, weight=1)
         self.grid_rowconfigure(9, weight=1)
+        self.wordtoaddimage=self.ruta_carpeta_application()+"CP JUNTO.docx"
 
         self.button_1 = customtkinter.CTkButton(master=self,
                                                 text="Carpeta de capturas de pantalla",
@@ -71,7 +73,7 @@ class App(customtkinter.CTk):
         self.button_4 = customtkinter.CTkButton(master=self,
                                                 text="AGREGAR IMAGENES",
                                                 fg_color=("red75", "gray30"),  # <- custom tuple-color
-                                                command=lambda:add_imagenes(self.ruta_carpeta_application())) #state=tkinter.DISABLED
+                                                command=lambda:add_imagenes(self.ruta_carpeta_application(),self.wordtoaddimage)) #state=tkinter.DISABLED
         self.button_4.grid(row=9, column=3, pady=0, padx=00)
 
         
@@ -135,7 +137,8 @@ class App(customtkinter.CTk):
         try:
             matrixPath=self.filename
             if self.filename!="":
-                make_files(appFolder,codeReq,self.filename)
+                modeJoin=False
+                make_files(appFolder,codeReq,self.filename,modeJoin)
                 print("Generando documentos...")
                 print(f"ruta de casos de prueba {folderEpc}")
                 print(f"nombre plantilla epc {pathTemplate}")
@@ -157,7 +160,9 @@ class App(customtkinter.CTk):
             self.unir_docs()
         if self.switch_4.get()==1 and ejecutado==True:
             print("ejecutando procedimiento de  agregar imagenes")
-            add_imagenes(self.ruta_carpeta_application())
+            nameDoc=self.wordtoaddimage
+            modeJoin=True
+            add_imagenes(self.ruta_carpeta_application(),nameDoc,modeJoin)
     def unir_docs(self):
         appFolder=self.ruta_carpeta_application()
         print("Uniendo los documentos...")
