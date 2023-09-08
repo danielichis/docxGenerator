@@ -1,0 +1,4 @@
+CARPETA_ONEDRIVE=C:\Users\Daniel\OneDrive\EPC_1920
+NIVEL DE DETALLE=1
+CARPETA_AUTOMATIZACION=C:\DanielBots\IBK\fti-mdp-core-web-testing
+TEST_MODE=FALSE
